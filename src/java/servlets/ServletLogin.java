@@ -36,7 +36,7 @@ public class ServletLogin extends HttpServlet {
         if(request.getParameter("pwd").equals("talentum")){
             HttpSession s=request.getSession();
             s.setAttribute("user", request.getParameter("user"));
-            RequestDispatcher rd=request.getRequestDispatcher("seleccion.html");
+            RequestDispatcher rd=request.getRequestDispatcher("lista.html");
             rd.forward(request, response);
         }
         else{			
