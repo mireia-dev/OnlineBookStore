@@ -40,7 +40,7 @@ public class GestionLibros {
         em.getTransaction().commit();   
     }
     
-    public void altaTema(Temas tem){
+    public void altaTema(String tema, int idtema){
         em.getTransaction().begin();
         em.persist(em);
         em.getTransaction().commit();   
