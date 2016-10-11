@@ -51,6 +51,11 @@ public class GestionLibros {
         return (List<Libro>)q.getResultList();
     }
     
+    public List<Temas> listaTemas(){
+        Query q=em.createNamedQuery("Temas.findAll");
+        return (List<Temas>)q.getResultList();
+    }
+    
     public List<Libro> buscarPorTema(String tema){
         Query q=em.createNamedQuery("Temas.findByTema");
         q.setParameter("tema", tema);
