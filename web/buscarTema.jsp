@@ -1,13 +1,18 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<%@page
-	language="java" contentType="text/html; charset=ISO-8859-1"
-	import="java.util.*,beans.*"
-	pageEncoding="ISO-8859-1"%>
+<%-- 
+    Document   : buscarTema
+    Created on : 11-oct-2016, 9:39:12
+    Author     : USUARIO
+--%>
+
+<%@page	language="java" contentType="text/html; charset=UTF-8"%>
+<%@page	import="java.util.*"%>
+<%@page	pageEncoding="windows-1252"%>
+
     <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>   
 <html>
 <head>
-<title>Seleccion</title>
-<meta http-equiv="Content-Type" content="text/html;  charset=ISO-8859-1" >
+    <title>Seleccion</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
     <center>
