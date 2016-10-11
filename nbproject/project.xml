@@ -11,11 +11,10 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
-<<<<<<< HEAD
-                    <file>${libs.Comet-GlassFish-v3.classpath}</file>
-=======
+                    <file>${&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD}</file>
+                </library>
+                <library dirs="200">
                     <file>${libs.jstl.classpath}</file>
->>>>>>> 6d6842b6fe0f092f2be6eb05ba355d61a15bb629
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
