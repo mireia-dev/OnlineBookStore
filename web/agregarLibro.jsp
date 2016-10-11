@@ -9,7 +9,7 @@
     </head>
     <body>     
         <center>
-            <form action="Login" method="post">
+            <form action="ServletAgregarLibro" method="post">
             Introduce título:<input type="text" name="titulo"/>
             <br/>
             Introduce autor:<input type="text" name="autor"/>
