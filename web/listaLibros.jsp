@@ -3,7 +3,6 @@
     Created on : 11-oct-2016, 10:22:08
     Author     : USUARIO
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,6 +11,18 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <center>
+            <form action="ServletListadoLibro" method="post">
+            <h1>Tabla de libros </h1>
+        <table border="1">
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        </center>
+        <br/><br/>
+            </form>           
+        </center>
     </body>
 </html>
