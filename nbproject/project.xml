@@ -11,7 +11,11 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
+<<<<<<< HEAD
+                    <file>${libs.Comet-GlassFish-v3.classpath}</file>
+=======
                     <file>${libs.jstl.classpath}</file>
+>>>>>>> 6d6842b6fe0f092f2be6eb05ba355d61a15bb629
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
@@ -27,5 +31,6 @@
                 <root id="test.src.dir"/>
             </test-roots>
         </data>
+        <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1"/>
     </configuration>
 </project>

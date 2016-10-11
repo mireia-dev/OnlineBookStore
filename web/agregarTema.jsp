@@ -4,6 +4,7 @@
     Author     : USUARIO
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -11,18 +12,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Agregar Tema</title>
     </head>
-    <body>
-        <form action="ServletAgregarTema" method="post">
-                <table>
-                    <tr>
-                        <td>Indique el Tema:</td>
-                        <td><input type="text" name="tema"/></td>
-                    </tr>
-                    <tr>
-                        <td>Indique el ID del Tema:</td>
-                        <td><input type="text" name="idtema"/></td>
-                    </tr>
-                </table>
-            </form>
+    <body>     
+        <center>
+            <form action="ServletAgregarTema" method="post">
+            Introduce un Tema:<input type="text" name="tema"/>
+            <br/>
+            Introduce un ID:<input type="text" name="idtema"/>
+            <br/>
+            <input type="submit" value="Validar"/>
+            </form>           
+        </center>
     </body>
 </html>
+
